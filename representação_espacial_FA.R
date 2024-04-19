@@ -54,7 +54,7 @@ municipios <- geobr::read_municipality()
 #Arquivo para compatibilizar os códigos municipais de 6 dígitos do DataSUS com os 
 #códigos municipais de 7 dígitos do pacote "geobr"
 
-dicmunicipios <- read.csv("https://github.com/luanajohas/jictac/raw/main/dicionario_municipios.csv")
+dicmunicipios <-  read.csv("https://github.com/luanajohas/Micro-observat-rio-Febre-Amarela/raw/main/dicionario_municipios.csv")
 
 
 # Epizootias====
